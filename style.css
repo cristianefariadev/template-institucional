@@ -1,5 +1,5 @@
 /*
-Theme Name: Emi
+Theme Name: tem-basico-blog
 Theme URL: http://projetos.cristianefaria.com/template-institucional/
 Author: Cristiane Faria
 Author URL: https://cristianefaria.com
@@ -30,7 +30,7 @@ body {
     font-weight: 400;
 }
 section{
-    padding: 100px 0 0;
+    padding: 100px 0;
 }
 a {
     color: #23A6D5;
@@ -225,10 +225,9 @@ label{
     font-weight: 600;
 }
 
-/* #WIDGET */
-#widget{
-    background-color: #0e3b66;
-    color: #fff;
+/* #MAP */
+#map{
+    padding: 0;
 }
 
 /* FOOTER */
