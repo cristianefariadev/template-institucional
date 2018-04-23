@@ -1,0 +1,260 @@
+/*
+Theme Name: Emi
+Theme URL: http://projetos.cristianefaria.com/template-institucional/
+Author: Cristiane Faria
+Author URL: https://cristianefaria.com
+
+CSS Document 
+#GENERAL
+#BANNER
+#CALL-TO-ACTION
+#ABOUT
+#SERVICES
+#GALLERY
+#CALL-TO-ACTION
+#CONTACT
+#WIDGET
+#CONTATO 
+*/
+
+/* Primary Styles */
+:root{
+    --default-color: #23A6D5;
+    --dark-color: #0e3b66;
+    --light-color: #d1e4f5;
+}
+/* #GENERAL */
+body {
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+section{
+    padding: 100px 0 0;
+}
+a {
+    color: #23A6D5;
+    transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+    color: #23A6D5;
+    outline: none;
+    text-decoration: none;
+}
+p {
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+}
+h1{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 900; 
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+h2{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase;
+    color: #0e3b66;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #23A6D5;
+}
+h4{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #808080;
+    margin-bottom: 30px;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.bg-color{
+    background-color: #0e3b66;
+}
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h2{
+    margin-bottom: 10px;
+}
+i{
+    font-family: 'Montserrat', sans-serif;
+    color: #cae2f9;
+}
+i:focus,
+i:hover{
+    color: #369bf9;
+}
+
+/* #BTN */
+.btn-dark{
+    color: #fff;
+    background-color:#0e3b66;
+    border: 2px solid #0e3b66;
+}
+.btn-dark:focus,
+.btn-dark:hover{
+    background-color: #23A6D5;
+    color: #fff;
+    border: 2px solid #23A6D5;
+}
+.btn-light{
+    background-color: #fff;
+    color:#0e3b66;
+    border: 2px solid #fff;
+}
+.btn-light:focus,
+.btn-light:hover{
+    background-color:#23A6D5;
+    color: #fff;
+    border: 1px solid #23A6D5;
+}
+
+/* NAVBAR */
+.navbar-brand{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700; 
+}
+.navbar-brand,
+.navbar-nav >li a{
+    color:#fff;
+}
+.navbar-nav >li a:focus,
+.navbar-nav >li a:hover{
+    color:#fff;
+    border-bottom: 2px solid #23A6D5;
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* BANNER */
+#carouselBanner .carousel-item {
+    height: 75vh;
+    margin-top: 50px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* #CALL-TO-ACTION */
+.cta-content{
+    padding: 0 10%;
+}
+.call-to-action p{
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+    .call-to-action p{
+        margin-bottom: 0;
+    }
+}
+.cta-text{
+    color: #fff;
+}
+
+/* #ABOUT */
+.about-img img{
+      max-width: 100%;
+      margin-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+    .about-img img{
+        margin-bottom: 0;
+  }
+}
+    
+/* #SERVICES */
+#service .item-service{
+    margin-top: 50px;
+    border-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+}
+#service .title,
+#service h4{
+    margin-bottom: 0;
+}
+#service .service-content{
+    padding: 30px 15px 0;
+}
+#service img{
+    width: 100%;
+}
+
+/* #GALLERY */
+.item-gallery{
+    margin-bottom: 30px;
+}
+#call-to-action-2{
+    margin-top: 70px;
+}
+
+/* CONTACT */
+#contact i{
+    font-size: 2rem;
+    color: #23A6D5;
+}
+#contact i:hover{
+    color: #0e3b66;
+}
+.info-ico{
+    float: left;
+    margin-right: 5%;
+}
+label{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+/* #WIDGET */
+#widget{
+    background-color: #0e3b66;
+    color: #fff;
+}
+
+/* FOOTER */
+footer{
+    color:white;
+    background-color: #0a2f52;
+    text-align: center;
+    padding: 30px 0;
+}
+footer .redes-sociais{
+    padding:5px 0 10px;
+}
+footer .redes-sociais a{
+    padding: 5px;
+}
+footer .redes-sociais i{
+    font-size: 1.5rem;
+}
+
+footer .copyright{
+    padding:5px 0;
+    font-size:1.1rem;
+}
+footer .copyright a{
+    color:#d1e4f5;
+    text-decoration: none;
+}
+footer .copyright p{margin-bottom: 0;}
+footer .copyright img{width: 1em;}
